@@ -7,7 +7,7 @@ $message = "Parent Name is:".$_POST["Pname"]." \n" ."Student Name is:".$_POST["S
 echo $message;
 
 
-$url = 'https://hooks.slack.com/services/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';
+$url = 'https://hooks.slack.com/';
 
 $ch = curl_init($url);
 
